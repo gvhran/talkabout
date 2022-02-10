@@ -1,0 +1,245 @@
+body {
+	background-image: url('logo.jpg');
+	 background-repeat: no-repeat;
+	 background-position: fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.loginstud{
+	width: 500px;
+	border: 2px solid blue;
+	padding: 30px;
+	
+	border-radius: 15px;
+
+	background-image: url('chcc.jpg');
+	background-position: fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+
+	position: absolute;
+	top: 50%;
+	left: 450;
+	
+	
+	margin-top: -200px;
+
+
+}
+.course{
+	color: blue;
+	-webkit-text-stroke: 1px white;
+
+}
+
+.formstudent{
+	width: 1500px;
+	border: 2px solid blue;
+	padding: 30px;
+	height: 600px;
+	border-radius: 15px;
+	background-image: url('chcc.jpg');
+	background-position: fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 50%;
+	left: 450;
+	margin-top: -200px;
+}
+table {
+	background: #f1ecec;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+form {
+	width: 500px;
+	border: 2px solid blue;
+	padding: 30px;
+	
+	border-radius: 15px;
+
+	background-image: url('chcc.jpg');
+	background-position: fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+
+	position: absolute;
+	top: 50%;
+	left: 450;
+	
+	
+	margin-top: -200px;
+
+}
+
+h2 {
+	font-family: Bernard MT Condensed;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: -10px;
+	color: blue;
+	-webkit-text-stroke: 1px white;
+	
+}
+
+
+input {
+	display: block;
+	border: 2px solid blue;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	font-family: Bernard MT Condensed;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	
+	float: right;
+	background: #000000;
+	padding: 10px 15px;
+	color: #ffffff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 2px solid blue;
+	font-weight: bold;
+	margin-top: -10px; 
+}
+button:hover{
+	opacity: .7;
+}
+/* mouse over link */
+button:hover {
+  color: white;
+  background-color: blue;
+
+}
+
+/* selected link */
+button:active {
+  color: blue;
+  background-color: white;
+}
+
+
+h1 {
+	font-family: Bernard MT Condensed;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: -18px;	
+}
+p{
+
+	font-family: Bernard MT Condensed;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin-right:100px;
+	margin-top: -5px;
+}
+h3{
+	font-family: Bernard MT Condensed;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: -18px;	
+}
+
+h4{
+	font-family: Bernard MT Condensed;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: -10px;
+	color: blue;
+	-webkit-text-stroke: 1px white;
+	
+}
+h5{
+	font-family: Bernard MT Condensed;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: -10px;
+	color: blue;
+	-webkit-text-stroke: 1px white;
+
+}
+
+
+
+
+.ca {
+	font-family: Bernard MT Condensed;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	margin-top: -10px; 
+	font-weight: bold;
+	-webkit-text-stroke: 1px #0adfd2;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
